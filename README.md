@@ -24,7 +24,7 @@ This is my personal collection of configuration files and scripts from over the 
 ![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image1.jpeg)
 
 
-## Samuari
+## Samurai
 
 ![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image1005.jpeg)
 
