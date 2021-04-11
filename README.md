@@ -31,9 +31,7 @@ This is my personal collection of configuration files and scripts from over the 
 
 ## Nord
 
-![preview]()
-
-![preview]()
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image27.jpg))
 
 ## Info
 
