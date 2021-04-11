@@ -16,10 +16,10 @@
 This is my personal collection of configuration files and scripts. More details below.
 
 ## Gallery
- 
-![preview](https://github.com/nolimitcarter/drg/blob/main/assets/IMG_3920.jpg)
 
 ![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image999.jpg)
+
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/IMG_3920.jpg)
 
 ## Info
 
