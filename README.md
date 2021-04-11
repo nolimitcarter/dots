@@ -15,23 +15,6 @@
 
 This is my personal collection of configuration files and scripts from over the years. More details below.
 
-## Main environment details
-
-| Items/Components     | Values/Dependencies                                                                                  |
-|----------------------|------------------------------------------------------------------------------------------------------|
-| Main Distro          | Arch based/Gnome                                                                                     |
-| Terminal             | Alacritty                                                                                            |
-| Shell                | Bash                                                                                                 |
-| Multiplexer          | Tmux                                                                                                 |
-| Text Editor          | Vim                                                                                                  |
-| IDE                  | VScode                                                                                               |
-| CLI Email Client     | Mutt                                                                                                 |
-| Window Managers      | i3 & bspwm                                                                                           |
-| CLI Web Browser      | Lynx                                                                                                 |
-| App Launcher         | rofi                                                                                                 |
-| Wallpaper Launcher   | Nitrogen                                                                                             |
-| PDF Viewer           | Zathura                                                                                              |
-
 ## Gallery
 
 ### Roses 
@@ -48,7 +31,7 @@ This is my personal collection of configuration files and scripts from over the 
 
 ## Nord
 
-![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image27.jpg))
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image27.jpg)
 
 ## Info
 
@@ -57,6 +40,23 @@ Alacritty terminal used with Bash, Tmux, Vim, Mutt, Lynx, etc. and the many diff
 Most folders are OS specific besides the main repo itself, it's mainly for Arch based distros.
 
 Credits to DistroTube for my polybar setup. Afterall, his bar uses the same colors I acitively use. 
+
+## Main environment details
+
+| Items/Components     | Values/Dependencies                                                                                  |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| Main Distro          | Arch based/Gnome                                                                                     |
+| Terminal             | Alacritty                                                                                            |
+| Shell                | Bash                                                                                                 |
+| Multiplexer          | Tmux                                                                                                 |
+| Text Editor          | Vim                                                                                                  |
+| IDE                  | VScode                                                                                               |
+| CLI Email Client     | Mutt                                                                                                 |
+| Window Managers      | i3 & bspwm                                                                                           |
+| CLI Web Browser      | Lynx                                                                                                 |
+| App Launcher         | rofi                                                                                                 |
+| Wallpaper Launcher   | Nitrogen                                                                                             |
+| PDF Viewer           | Zathura                                                                                              |
 
 ## Distro
 
