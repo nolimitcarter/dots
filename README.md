@@ -15,6 +15,23 @@
 
 This is my personal collection of configuration files and scripts from over the years. More details below.
 
+## Main environment details
+
+| Items/Components     | Values/Dependencies                                                                                  |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| Main Distro          | Arch based/Gnome                                                                                     |
+| Terminal             | Alacritty                                                                                            |
+| Shell                | Bash                                                                                                 |
+| Multiplexer          | Tmux                                                                                                 |
+| Text Editor          | Vim                                                                                                  |
+| IDE                  | VScode                                                                                               |
+| CLI Email Client     | Mutt                                                                                                 |
+| Window Managers      | i3 & bspwm                                                                                           |
+| CLI Web Browser      | Lynx                                                                                                 |
+| App Launcher         | rofi                                                                                                 |
+| Wallpaper Launcher   | Nitrogen                                                                                             |
+| PDF Viewer           | Zathura                                                                                              |
+
 ## Gallery
 
 ### Roses 
@@ -44,23 +61,6 @@ Credits to DistroTube for my polybar setup. Afterall, his bar uses the same colo
 ## Distro
 
 Parts of these files are currently running on Manjaro, Ubuntu, Arch, and OS X
-
-## Main environment details
-
-| Items/Components     | Values/Dependencies                                                                                  |
-|----------------------|------------------------------------------------------------------------------------------------------|
-| Main Distro          | Arch based/Gnome                                                                                     |
-| Terminal             | Alacritty                                                                                            |
-| Shell                | Bash                                                                                                 |
-| Multiplexer          | Tmux                                                                                                 |
-| Text Editor          | Vim                                                                                                  |
-| IDE                  | VScode                                                                                               |
-| CLI Email Client     | Mutt                                                                                                 |
-| Window Managers      | i3 & bspwm                                                                                           |
-| CLI Web Browser      | Lynx                                                                                                 |
-| App Launcher         | rofi                                                                                                 |
-| Wallpaper Launcher   | Nitrogen                                                                                             |
-| PDF Viewer           | Zathura                                                                                              |
 
 ## License
 
