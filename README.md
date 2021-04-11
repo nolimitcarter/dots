@@ -17,15 +17,23 @@ This is my personal collection of configuration files and scripts. More details 
 
 ## Gallery
 
-### Yellow Dragon 
+### Roses 
+
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image0.jpeg)
+
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image1.jpeg)
+
+## Yellow Dragon 
 
 ![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image999.jpg)
 
 ![preview](https://github.com/nolimitcarter/drg/blob/main/assets/IMG_3920.jpg)
 
-## Nord 
+## Nord
 
-## Roses
+![preview]()
+
+![preview]()
 
 ## Info
 
