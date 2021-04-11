@@ -17,7 +17,7 @@ This is my personal collection of configuration files and scripts. More details 
 
 ## Gallery
  
-![preview](https://github.com/nolimitcarter/dotfiles/blob/master/assets/IMG_3920.jpg)
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/IMG_3920.jpg)
 
 ## Info
 
