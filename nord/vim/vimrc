@@ -1,0 +1,212 @@
+
+""        _
+"" __   _(_)_ __ ___  _ __ ___    
+"" \ \ / / | '_ ` _ \| '__/ __|     
+""  \ V /| | | | | | | | | (__      nolimitcarter
+""   \_/ |_|_| |_| |_|_|  \___|     https://github.com/nolimitcarter
+""
+
+
+" syntaxing / cursor line
+" syntax enable
+set encoding=utf-8
+set cul 
+hi CursorLine term=none cterm=none ctermbg=none
+filetype on
+filetype plugin on
+noremap B ^ 
+noremap E $
+noremap gv `[V`]
+set cmdheight=1
+set backspace=indent,eol,start
+
+" formatting by tabs 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set smarttab
+set nu
+set expandtab
+set nobackup
+set noerrorbells
+
+" colorschemes
+"let g:gruvbox_(option) = '(value)'
+"colorscheme gruvbox
+" g:gruvbox_contrast_dark
+"packadd! dracula
+"syntax enable
+colorscheme nordy
+"some extra enter that was added after installing dracula
+let g:loaded_netrwPlugin = 1 " Disables netrw.
+
+
+" colors and shell styles
+" default colors are nice tho @ gruvbox
+set background=dark
+set scrollfocus
+set showmode
+set showcmd
+set ttyfast
+set shell=bash
+
+" hightlights search (use :noh to clear the highlights, n can turn back on)
+set hlsearch
+set incsearch
+set showmatch " new
+
+" auto y for Y/N installs
+set shortmess=aoOtI 
+
+" memory management
+" stops complaints about switching buffer with changes
+set hidden
+set history=100
+
+" display
+set smartindent
+set linebreak
+set icon
+set ruler
+set nocompatible
+set nowrap 
+set showbreak=▹ 
+
+" autocomplete in insert mode on ctrl+N 
+set complete
+set completeopt
+set wildmenu
+ 
+" universal copy and paste, prevents yanks and deletes
+set viminfo='20,<1000,s1000
+" set colorcolumn=80
+" highlight ColorColumn ctermbg=0 guibg=darkgrey
+
+" has somehting to do with transparency 
+" highlight Normal guibg=none
+
+" trimming extra white-space
+"fun! TrimWhitespace()
+"  let l:save = winsaveview()
+"  keeppatterns %s/\s\+$//e
+"  call winrestview(l:save)
+"endfun
+
+"augroup nolimitcarter
+"  autocmd!
+"  autocmd BufWritePre * :call TrimWhitespace()
+"augroup END
+
+
+" <3 vim plugins
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nolimitcarter/vim-airline-themes'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'airblade/vim-gitgutter'
+Plug 'flazz/vim-colorschemes'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'preservim/nerdtree'
+Plug 'dense-analysis/ale'
+Plug 'easymotion/vim-easymotion'
+"Plug 'nathanaelkane/vim-indent-guides'
+Plug 'frazrepo/vim-rainbow'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'jiangmiao/auto-pairs'
+" ctrl+Y, , for expand completion
+Plug 'mattn/emmet-vim'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+" Debugger Plugins
+Plug 'puremourning/vimspector'
+Plug 'szw/vim-maximizer'
+
+call plug#end()
+
+"golang 
+let g:go_fmt_fail_silently = 0 " let me out even with errors
+let g:go_fmt_command = 'goimports' " autoupdate import
+let g:go_fmt_autosave = 1
+let g:go_fmt_fail_silently = 0
+  let g:go_fmt_command = 'goimports'
+  let g:go_fmt_autosave = 1
+  let g:go_gopls_enabled = 1
+  let g:go_highlight_types = 1
+  let g:go_highlight_fields = 1
+  let g:go_highlight_functions = 1
+  let g:go_highlight_function_calls = 1
+  let g:go_highlight_operators = 1
+  let g:go_highlight_extra_types = 1
+  let g:go_highlight_variable_declarations = 1
+  let g:go_highlight_variable_assignments = 1
+  let g:go_highlight_build_constraints = 1
+  let g:go_highlight_diagnostic_errors = 1
+  let g:go_highlight_diagnostic_warnings = 1
+  let g:go_auto_type_info = 1
+  let g:go_auto_sameids = 0
+  "let g:go_metalinter_command='golangci-lint'
+  "let g:go_metalinter_command='golint'
+  "let g:go_metalinter_autosave=1
+  set updatetime=100
+  "let g:go_gopls_analyses = { 'composites' : v:false }
+  au FileType go nmap <leader>t :GoTest!<CR>
+  au FileType go nmap <leader>v :GoVet!<CR>
+  au FileType go nmap <leader>b :GoBuild!<CR>
+  au FileType go nmap <leader>c :GoCoverageToggle<CR>
+  au FileType go nmap <leader>i :GoInfo<CR>
+  au FileType go nmap <leader>l :GoMetaLinter!<CR>
+"let g:go_gopls_enabled = 0
+" airline plugin
+" ---Airline---
+set t_Co=256
+let g:Powerline_symbols = "fancy"
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'bubblegum' " listing good themes= minimalist, zenburn, wombat, seagull, peaksea, minimalist, lucius
+let g:airline_skip_empty_sections = 1
+let g:airline#extensions#tabline#enabled = 0 "0 for top gone
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline#extensions#whitespace#enabled = 0 " for trailing white space on right side of airline
+
+let $VIMRUNTIME='C:/usr/share/vim/vim82'
+
+" go to file for fzf
+nnoremap <C-p> :GFiles<CR>
+
+" nerdtree plugin mapped to ctrl+o
+map <C-o> :NERDTreeToggle<CR>
+
+" unhighlight with / enter
+map <silent> <leader><cr> :noh<cr>
+
+" remember where you were last time editing 
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+" formatting 
+set formatoptions-=a " disables autoformatting 
+map <f4> :set list!<CR>
+imap ii <C-[>  
+
+" WIP GO plugin options
+"  let g:go_fmt_command = 'goimports'
+"  let g:go_fmt_autosave = 1
+"else
+"  autocmd vimleavepre *.go !gofmt -w %
+"endif 
+
+""""""""""""""""""""""""""""""
+" Fixes Mouse in Alacritty "
+""""""""""""""""""""""""""""""
+set mouse=a
+"" spelling
+if v:version >= 700
+        " Enable spell check for text files
+        autocmd BufNewFile,BufRead *.txt,.md setlocal spell spelllang=en
+endif
+
+au syntax * hi SpellBad ctermfg=White ctermbg=Red cterm=none
+
