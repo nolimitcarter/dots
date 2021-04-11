@@ -38,7 +38,7 @@ This is my personal collection of configuration files and scripts from over the 
 
 ## Nord
 
-![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image27.jpg))
+![preview](https://github.com/nolimitcarter/drg/blob/main/assets/image27.jpg)
 
 ## Info
 
@@ -47,10 +47,6 @@ Alacritty terminal used with Bash, Tmux, Vim, Mutt, Lynx, etc. and the many diff
 Most folders are OS specific besides the main repo itself, it's mainly for Arch based distros.
 
 Credits to DistroTube for my polybar setup. Afterall, his bar uses the same colors I acitively use. 
-
-## Distro
-
-Parts of these files are currently running on Manjaro, Ubuntu, Arch, and OS X
 
 ## Main environment details
 
@@ -68,6 +64,10 @@ Parts of these files are currently running on Manjaro, Ubuntu, Arch, and OS X
 | App Launcher         | rofi                                                                                                 |
 | Wallpaper Launcher   | Nitrogen                                                                                             |
 | PDF Viewer           | Zathura                                                                                              |
+
+## Distro
+
+Parts of these files are currently running on Manjaro, Ubuntu, Arch, and OS X
 
 ## License
 
